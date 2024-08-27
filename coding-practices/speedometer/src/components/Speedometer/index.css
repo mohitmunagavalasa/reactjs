@@ -1,0 +1,63 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+}
+
+.image {
+  width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 900px;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+  font-size: 22px;
+}
+
+.button1 {
+  border-width: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  /* font-size: 20px; */
+  font-family: 'Roboto';
+  border-radius: 6px;
+  padding: 5px;
+  margin: 10px;
+  height: 30px;
+}
+
+.button2 {
+  height: 30px;
+  box-sizing: border-box;
+  border-width: 2px;
+  border-color: #cbd5e1;
+  background-color: transparent;
+  /* font-size: 20px; */
+  font-family: 'Roboto';
+  border-radius: 6px;
+  padding: 6px;
+  color: #94a3b8;
+  margin: 10px;
+}

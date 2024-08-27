@@ -1,0 +1,80 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffebeb, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-container {
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-container {
+    padding: 35px;
+  }
+}
+
+.feedback {
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+  color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback {
+    font-size: 25px;
+  }
+}
+
+.reactions-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .reactions-container {
+    width: 80%;
+  }
+}
+
+.reaction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reaction {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .reaction {
+    height: 60px;
+    width: 60px;
+  }
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #1e293b;
+  text-align: center;
+}

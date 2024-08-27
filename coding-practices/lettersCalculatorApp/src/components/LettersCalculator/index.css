@@ -1,0 +1,76 @@
+/* Write your code here. */
+.app-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+}
+
+.clock-image {
+  height: 300px;
+  width: 400px;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .clock-image {
+    order: 2;
+  }
+}
+
+.calculate-container {
+  width: 80%;
+  max-width: 400px;
+  margin-top: 20px;
+  order: 2;
+}
+@media screen and (min-width: 768px) {
+  .calculate-container {
+    order: 1;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.phrase-text {
+  font-family: 'Roboto';
+  color: #e4e7eb;
+  font-size: 16px;
+}
+
+.input-text {
+  width: 70%;
+  max-width: 300px;
+  background-color: transparent;
+  border: 1px solid #e4e7eb;
+  font-family: 'Roboto';
+  color: #e4e7eb;
+  font-size: 16px;
+  padding: 5px;
+  outline: none;
+}
+
+.button {
+  margin-top: 30px;
+  width: 170px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #219a6f;
+  font-size: 16px;
+}

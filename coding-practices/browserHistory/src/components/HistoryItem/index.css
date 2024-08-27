@@ -1,0 +1,106 @@
+.history-item-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .history-item-container {
+    flex-direction: row;
+  }
+}
+
+.time-accessed {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .time-accessed {
+    margin-bottom: 0px;
+  }
+}
+
+.details-container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .details-container {
+    margin-left: 50px;
+  }
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-url {
+  height: 20px;
+  width: 20px;
+  align-self: center;
+}
+
+.title-link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .title-link-container {
+    margin-left: 15px;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    margin-bottom: 0px;
+  }
+}
+
+.domain-url {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .domain-url {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .domain-url {
+    margin-top: 0px;
+  }
+}
+
+.delete-button {
+  border: 0px;
+  background-color: transparent;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}

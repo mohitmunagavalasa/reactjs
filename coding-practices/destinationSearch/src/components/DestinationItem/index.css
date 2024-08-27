@@ -1,0 +1,19 @@
+.destination-card {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 0px;
+  width: 150px;
+}
+
+.image {
+  width: 150px;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.title {
+  font-family: 'Open Sans';
+  color: #0f172a;
+  font-size: 14px;
+}

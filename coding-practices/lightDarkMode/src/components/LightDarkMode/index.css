@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.dark-container {
+  background-color: #000000;
+}
+
+.light-container {
+  background-color: #ffffff;
+  border: solid 2px #000000;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+
+.dark-heading {
+  color: #000000;
+}
+
+.light-heading {
+  color: #ffffff;
+}
+
+.button {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  border-width: 2px;
+  border-color: #000000;
+  border-radius: 6px;
+}
+
+.dark-button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.light-button {
+  color: #000000;
+  background-color: #ffffff;
+}

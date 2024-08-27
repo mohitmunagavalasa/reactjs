@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 80px;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

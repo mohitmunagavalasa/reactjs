@@ -1,0 +1,53 @@
+.bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.gallary-app-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.active-image-style {
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .active-image-style {
+    max-width: 550px;
+    height: 320px;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 19px;
+}
+
+.description {
+  margin-top: 5px;
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tumbnails-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}

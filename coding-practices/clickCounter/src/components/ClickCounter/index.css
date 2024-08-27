@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #2d3a35;
+  font-size: 28px;
+}
+
+.count {
+  font-size: 32px;
+  color: #c20a72;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 32px;
+  }
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+}

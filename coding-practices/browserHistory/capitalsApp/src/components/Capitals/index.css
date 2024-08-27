@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.capital-app-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-card-container {
+  background-color: #f8fafc;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+  padding: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-card-container {
+    padding: 40px;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 22px;
+}
+
+.capital {
+  font-family: 'Roboto';
+  color: #323f4b;
+  font-size: 18px;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown {
+  margin-right: 10px;
+  padding: 5px;
+  padding-right: 25px;
+  border: 1px solid #cbd2d9;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.label-text {
+  font-size: 14px;
+  color: #323f4b;
+  font-family: 'Roboto';
+}
